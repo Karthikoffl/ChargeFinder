@@ -3,4 +3,5 @@ export default {
   GRAY: "#898989",
   WHITE: "#FFFFFF",
   BLACK: "#000",
+  WHITE_TRANSP: "#ffffff87",
 };

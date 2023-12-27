@@ -26,7 +26,7 @@ export default function TabNavigation() {
         name="favorite"
         component={FavoriteScreen}
         options={{
-          tabBarLabel: "Search",
+          tabBarLabel: "Favorite",
           tabBarActiveTintColor: Colors.PRIMARY,
           tabBarIcon: ({ color, size }) => (
             <AntDesign name="hearto" size={size} color={color} />
@@ -37,7 +37,7 @@ export default function TabNavigation() {
         name="profile"
         component={ProfileScreen}
         options={{
-          tabBarLabel: "Search",
+          tabBarLabel: "Profile",
           tabBarActiveTintColor: Colors.PRIMARY,
           tabBarIcon: ({ color, size }) => (
             <AntDesign name="user" size={size} color={color} />
