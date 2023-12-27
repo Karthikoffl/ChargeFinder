@@ -14,6 +14,7 @@ const config = {
       "places.evChargeOptions",
       "places.shortFormattedAddress",
       "places.photos",
+      "places.id",
     ],
   },
 };
