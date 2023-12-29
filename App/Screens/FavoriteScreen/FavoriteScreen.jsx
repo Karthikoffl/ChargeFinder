@@ -8,9 +8,9 @@ import {
 import React, { useEffect, useState } from "react";
 import Colors from "../../utils/Colors";
 import {
+  getFirestore,
   collection,
   getDocs,
-  getFirestore,
   query,
   where,
 } from "firebase/firestore";
