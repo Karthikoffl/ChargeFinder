@@ -63,7 +63,7 @@ export default function PlaceItem({ place, isFav, markedFav }) {
   return (
     <View
       style={{
-        width: Dimensions.get("screen").width * 0.8,
+        width: Dimensions.get("screen").width * 0.9,
         backgroundColor: Colors.WHITE,
         margin: 5,
         borderRadius: 10,
